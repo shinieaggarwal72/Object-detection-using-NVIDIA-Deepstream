@@ -10,7 +10,7 @@ This repository contains step-by-step instructions on how to run NVIDIA Deepstre
    ```bash
    ssh <username>@<jetson_ip_address>
    
-2. Pull the deepstream container image from NGC catalog according to the version of your Jetson.
+2. Pull the deepstream container image from [NGC catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/deepstream) according to the version of your Jetson.
    ```bash
    sudo docker pull nvcr.io/nvidia/deepstream-l4t:<version>
    
